@@ -2,6 +2,9 @@
 
 A simple AI-powered customer support chatbot built with **Streamlit** and **OpenAI**, designed to answer common questions about Thoughtful AI using a predefined knowledge base, with GPT-4 fallback for anything else.
 
+Potential next upgrades: 
+- Supposing the knowledgebase is very large, we could use a fast fuzzy library to first filter close matches by some tuned coefficient. Then present the top n possible matches to the classifier for logical matching.
+
 ---
 
 ## Features
